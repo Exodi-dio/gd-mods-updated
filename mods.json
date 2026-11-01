@@ -7,12 +7,20 @@
       "name": "Jukebox",
       "version": "3.8.1",
       "license": "MIT",
-      "platforms": ["android32", "android64"],
+      "platforms": [
+        "android32",
+        "android64"
+      ],
       "build_repo": "Exodi-dio/jukebox",
       "upstream": "Fleeym/jukebox",
       "release": "https://github.com/Exodi-dio/jukebox/releases/tag/v3.8.1-android-2.2091",
       "download": "https://github.com/Exodi-dio/jukebox/releases/download/v3.8.1-android-2.2091/fleym.nongd.geode"
     }
   ],
-  "excluded": ["tobyadd.gdh", "eclipse.eclipse-menu", "firee.prism"]
+  "excluded": [
+    "tobyadd.gdh",
+    "eclipse.eclipse-menu",
+    "firee.prism"
+  ],
+  "notes": "Level Thumbnails not buildable: pinned dependency argon@1.5.1 is unmaintained since 2026-07 and breaks on current SDK (asp::fs::isFile removed, ServerAPIEvents API changed). Upstream repo also has no LICENSE."
 }
