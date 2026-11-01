@@ -1,0 +1,18 @@
+{
+  "gamedata": "2.2091",
+  "geode": "nightly",
+  "mods": [
+    {
+      "id": "fleym.nongd",
+      "name": "Jukebox",
+      "version": "3.8.1",
+      "license": "MIT",
+      "platforms": ["android32", "android64"],
+      "build_repo": "Exodi-dio/jukebox",
+      "upstream": "Fleeym/jukebox",
+      "release": "https://github.com/Exodi-dio/jukebox/releases/tag/v3.8.1-android-2.2091",
+      "download": "https://github.com/Exodi-dio/jukebox/releases/download/v3.8.1-android-2.2091/fleym.nongd.geode"
+    }
+  ],
+  "excluded": ["tobyadd.gdh", "eclipse.eclipse-menu", "firee.prism"]
+}
